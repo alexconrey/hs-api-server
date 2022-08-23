@@ -8,3 +8,8 @@ export HS_API_CLIENT_SECRET="battle.net api client secret"
 export HS_MAX_MANNA_COST=10
 go run .
 ```
+
+## Accessing
+```
+curl http://localhost:8080/cards/list?classes=hunter,mage&manaCost=7&rarity=epic&limit=10
+```
